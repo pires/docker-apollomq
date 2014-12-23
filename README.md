@@ -3,6 +3,12 @@ docker-apollomq
 
 This project builds a [docker](http://docker.io/) container for running Apache (ActiveMQ) Apollo message broker. STOMP, AMQP, MQTT, Openwire, SSL, and WebSockets are supported.
 
+It is available in Docker Hub:
+
+```
+docker pull pires/docker-apollomq
+```
+
 ## Build
 
 Once you have [installed docker](https://www.docker.io/gettingstarted/#h_installation) you should be able to create the containers via the following:
