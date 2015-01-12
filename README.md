@@ -24,7 +24,7 @@ docker build -t apollomq:1.7 .
 Non-secure ports:
 
 ```
-docker run --name amq1 -p=61613:61613 -p=61613:61623 -p=61680:61680 -d -t apollomq:1.7
+docker run --name amq1 -p=61613:61613 -p=61623:61623 -p=61680:61680 -d -t apollomq:1.7
 ```
 
 Secure ports:
