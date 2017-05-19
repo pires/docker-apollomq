@@ -1,5 +1,5 @@
 # You know you love it
-FROM Java:openjdk-8u40
+FROM java:openjdk-8u40
 
 # Me, Myself and I
 MAINTAINER Paulo Pires <pjpires@gmail.com>
